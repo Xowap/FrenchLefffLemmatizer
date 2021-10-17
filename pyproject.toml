@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "french_lefff_lemmatizer"
+version = "0.3.1"
+description = "French Lemmatizer based on LEFFF a large-scale morphological and syntactic lexicon for French"
+authors = ["Claude Coulombe <claude.coulombe@gmail.com>"]
+license = "Apache 2"
+include = ["data/*.mlex"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
